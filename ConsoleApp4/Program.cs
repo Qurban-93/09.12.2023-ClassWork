@@ -1,4 +1,7 @@
-﻿int[] numbers = { 1, 2, 2, 4, 7, 90, 9, 8, 5 };
+﻿//Massivde olan en boyuk tapan alqoritm
+
+int[] numbers = { 1, 2, 2, 4, 7, 90, 9, 8, 5 };
+
 int mostHigh = numbers[0];
 
 for (int i = 1; i < numbers.Length; i++)
@@ -9,6 +12,9 @@ for (int i = 1; i < numbers.Length; i++)
     }
 }
 Console.WriteLine(mostHigh);
+
+
+//Verilmish deyerin sade murekkeb oldugunu tapan alqoritm
 
 
 int number = 45;
